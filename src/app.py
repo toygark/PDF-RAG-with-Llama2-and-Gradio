@@ -18,4 +18,4 @@ with demo:
         success(pdf_chatbot.render_file, inputs=[uploaded_pdf], outputs=[show_img])
 
 if __name__ == "__main__":
-    demo.launch()
+    demo.launch(share=True)
